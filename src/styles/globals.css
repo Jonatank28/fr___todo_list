@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  body {
+    @apply min-h-screen scroll-smooth subpixel-antialiased font-sans;
+  }
+  .default-width {
+    @apply max-w-4xl px-2 mx-auto;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 15px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #222222;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #414040;
+  border-radius: 5px;
+}
+
+
+
